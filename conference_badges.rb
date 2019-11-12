@@ -5,4 +5,6 @@ def badge_maker(name)
   phrase
 end
 
-def batch_badge_creator
+def batch_badge_creator(attendees)
+  badge_array = []
+  
