@@ -4,3 +4,5 @@ def badge_maker(name)
   puts phrase
   phrase
 end
+
+def batch_badge_creator
