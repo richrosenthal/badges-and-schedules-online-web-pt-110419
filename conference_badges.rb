@@ -33,7 +33,7 @@ def printer(attendees)
   batch_badge_creator_method_array = batch_badge_creator(attendees)
   assign_rooms_method_array = assign_rooms(attendees)
   
-  count = 0 
+  
   count2 = 0
   batch_badge_creator_method_array.each do |badges|
     puts batch_badge_creator_method_array[count2]
